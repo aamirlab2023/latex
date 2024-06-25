@@ -1,0 +1,442 @@
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%%                                 preamble - PREAMBLE
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% File: topic_.tex
+%% Author: Aamir Alaud Din, PhD
+%% Date: 2024.06.22
+%% Course Title: Computer Programming with Python
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[aspectratio=169]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{changepage}
+\usepackage{xcolor}
+\usepackage{scrextend}
+\usepackage{blindtext}
+\usepackage{lipsum}
+\usepackage{tcolorbox}
+\usepackage{courier}
+\usepackage{tabto}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amsopn}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{ragged2e}
+\usepackage{wrapfig}
+\usepackage{multicol}
+\usepackage{array}
+\usepackage{dirtytalk}
+\usepackage{graphicx}
+\usepackage{caption}
+\captionsetup[figure]{font=large}
+\captionsetup{labelsep=period}
+\captionsetup{justification=centering}
+\usepackage{color, colortbl}
+\usepackage{hyperref}
+\usepackage{chemfig}
+\usefonttheme[onlymath]{serif}
+\usecolortheme{magpie}
+\setbeamertemplate{page number in head/foot}[totalframenumber]
+\setbeamertemplate{nvaigation symbols}{}
+\beamertemplatenavigationsymbolsempty
+\graphicspath{{../images/}}
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{\LARGE TABLE OF CONTENTS}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+\makeatletter
+\setbeamertemplate{footline}{
+\leavevmode
+\hbox{
+\begin{beamercolorbox}[wd=.20\paperwidth,ht=2.25ex,dp=1ex,center]{author in
+	head/foot}
+	\usebeamerfont{title in head/foot}\insertshortauthor
+\end{beamercolorbox}
+\begin{beamercolorbox}[wd=.60\paperwidth,ht=2.25ex,dp=1ex,center]{title in
+	head/foot}
+	\usebeamerfont{title in head/foot}\insertshortinstitute
+\end{beamercolorbox}
+\begin{beamercolorbox}[wd=.20\paperwidth,ht=2.25ex,dp=1ex,center]{date in
+	head/foot}
+	\usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
+	\insertframenumber{} / \inserttotalframenumber\hspace*{2ex}
+\end{beamercolorbox}}
+\vskip0pt
+}
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Slide No. 1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title[]{Computer Programming with Python}
+\subtitle{}
+\author[\textcolor{red}{Dr. Aamir Alaud Din}]
+{\textcolor{red}{Dr. Aamir Alaud Din}}
+\institute[\textcolor{green}{Learn }\textcolor{white}{and}
+\textcolor{red}{Practice, Practice, and Practice!}]
+{\large Institute of Environmental Sciences and Engineering (IESE)
+\newline
+\large School of Civil and Environmental Engineering (SCEE)
+\newline
+\large National University of Sciences and Technology (NUST), Islamabad}
+\date[\textcolor{red}{Topic 1}]
+{\textcolor{green}{Topic 1 - Introduction to Python Programming}
+\newline
+\today}
+\begin{document}
+	\frame{\titlepage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Slide No. 2
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{frame}
+		\frametitle{\LARGE TABLE OF CONTENTS}
+		\tableofcontents
+	\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Section NO. 1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Slide No. 3
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\section{\Large RECAP}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Slide No. 4
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{frame}
+		\frametitle{\LARGE RECAP}
+		\vspace{1em}
+		\begin{itemize}
+			\setlength \itemsep{1em}
+			\item \large
+			\item \large
+			\item \large
+			\item \large
+			\item \large
+		\end{itemize}
+	\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Section NO. 2
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Slide No. 5
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\section{\Large OBJECTIVES}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Slide No. 6
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{frame}
+		\frametitle{\LARGE OBJECTIVES}
+		\large After \color{green}taking this lecture \color{white}and
+		\color{red}studying\color{white}, you should be able to
+		\vspace{1em}
+		\begin{itemize}
+			\setlength \itemsep{1em}
+			\item \large
+			\item \large
+			\item \large
+			\item \large
+		\end{itemize}
+	\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Section No. 3
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Slide No. 7
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\section{\Large THE WHY SECTION}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Slide No. 8
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{frame}[t]
+		\frametitle{\LARGE THE WHY SECTION}
+		\begin{itemize}
+			\setlength\itemsep{1em}
+			\item \large
+			\item \large
+			\item \large
+			\item \large
+			\item \large
+		\end{itemize}
+	\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Slide No. 9
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{frame}[t]
+		\frametitle{\LARGE THE WHY SECTION}
+		\begin{itemize}
+			\setlength\itemsep{1em}
+			\item \large
+			\item \large
+			\item \large
+			\item \large
+			\item \large
+		\end{itemize}
+	\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Section No.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Slide No.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\section{\Large SUMMARY}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Slide No.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{frame}[t]
+		\frametitle{\LARGE SUMMARY}
+		\begin{itemize}
+			\setlength\itemsep{1em}
+			\item \large
+			\item \large
+			\item \large
+			\item \large
+			\item \large
+		\end{itemize}
+	\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Last Slide
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{frame}
+		\begin{center}
+			\includegraphics[width=\textwidth]{thanks}
+		\end{center}
+	\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% End of Presentation
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+
+
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%%                                  section - SECTION
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Section No.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Slide No.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\section{\Large }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Slide No.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{frame}[t]
+		\frametitle{\LARGE }
+		\begin{itemize}
+			\setlength\itemsep{1em}
+			\item \large
+			\item \large
+			\item \large
+			\item \large
+			\item \large
+		\end{itemize}
+	\end{frame}
+
+
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%%                                frame - FRAME
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Slide No.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{frame}[t]
+		\frametitle{\LARGE }
+		\begin{itemize}
+			\setlength\itemsep{1em}
+			\item \large
+			\item \large
+			\item \large
+			\item \large
+			\item \large
+		\end{itemize}
+	\end{frame}
+
+
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%%                                list_itemize -  ITEMIZE
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{itemize}
+	\setlength\itemsep{1em}
+	\item \large
+	\item \large
+	\item \large
+	\item \large
+	\item \large
+\end{itemize}
+
+
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%%                                 list_enumerate - ENUMERATE
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{enumerate}
+	\setlength\itemsep{1em}
+	\item \large
+	\item \large
+	\item \large
+	\item \large
+	\item \large
+\end{enumerate}
+
+
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%%                          figure_cap - FIGURE-CAPTIONED
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{}
+	\caption{\large }
+	\label{fig:fig}
+\end{figure}
+
+
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%%                          figure_uncap - FIGURE-UNCAPTIONED
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{}
+\end{figure}
+
+
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%%                            figure_inline - FIGURE-INLINE
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\includegraphics[width=\textwidth]{}
+
+
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%%                           textbox_example - TEXTBOX-EXAMPLE
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{exampleblock}{\large EXAMPLE }
+	{\large }
+\end{exampleblock}
+
+
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%%                           textbox_general - TEXTBOX-GENERAL
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{block}{}
+	{\large }
+\end{block}
+
+
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%%                           textbox_alert - TEXTBOX-ALERT
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{alertblock}{\textcolor{yellow}{\large }\color{white}}
+	{\large }
+\end{alertblock}
+
+
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%%                                heading -  HEADING
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\textcolor{green}{\large }
+
+
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%%                        math_matrix_centralized - MATRIX-CENTRALIZED
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{center}$
+	\begin{bmatrix}
+		 &  &   \\
+		 &  &   \\
+		 &  &   \\
+	\end{bmatrix}$
+\end{center}
+
+
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%%                              hyperlink - HYPERLINK
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\href{https://www.github.com/aamirlab2023/}
+{\textcolor{green}{\textit{\underline{click here}}}}
+
+
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%%                              goto_code - GOTO CODE
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\includegraphics[height=0.3cm]{code}
+
+
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%%                                minipage - MINIPAGE
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{minipage}{0.45\columnwidth} %% 45% width of left minipage
+
+\end{minipage}
+\begin{minipage}{0.45\columnwidth} %% 45% width of right minipage
+
+\end{minipage}
+
+
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%%                                cred - RED TEXT
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\textcolor{red}{\large }\color{white}
+
+
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%%                           cgreen - GREEN TEXT
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\textcolor{green}{\large }\color{white}
+
+
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%%                           cblue - BLUE TEXT
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\textcolor{blue}{\large }\color{white}
+
+
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%%                           corange - ORANGE TEXT
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\textcolor{orange}{\large }\color{white}
+
+
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%%                            cyellow - YELLOW TEXT
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\textcolor{yellow}{\large }\color{white}
+
+
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%%                       monospace_font - COMPUTER FONT
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\textcolor{green}{\texttt{\large }}
+
+
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%%                      summary - SUMMARY
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Section No.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Slide No.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\section{\Large SUMMARY}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Slide No.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{frame}[t]
+		\frametitle{\LARGE SUMMARY}
+		\begin{itemize}
+			\setlength\itemsep{1em}
+			\item \large
+			\item \large
+			\item \large
+			\item \large
+			\item \large
+		\end{itemize}
+	\end{frame}
